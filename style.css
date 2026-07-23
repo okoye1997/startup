@@ -1990,20 +1990,20 @@ a,
 
 /* CTA section: 20px shorter at each responsive size. */
 #get-started {
-  padding-top: 102px;
-  padding-bottom: 130px;
+  padding-top: 87px;
+  padding-bottom: 115px;
 }
 
 @media (max-width: 820px) {
   #get-started {
-    padding-top: 78px;
-    padding-bottom: 94px;
+    padding-top: 63px;
+    padding-bottom: 79px;
   }
 }
 
 @media (max-width: 600px) {
   #get-started {
-    padding-top: 54px;
-    padding-bottom: 70px;
+    padding-top: 39px;
+    padding-bottom: 55px;
   }
 }
