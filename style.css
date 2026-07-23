@@ -1913,3 +1913,190 @@ body{background:#fff}header{max-width:none;margin:0;padding:16px 104px}main{widt
   font-family: var(--font-body);
   font-weight: 500;
 }
+
+/* Final responsive polish ------------------------------------------------- */
+html { scroll-behavior: smooth; }
+body { overflow-x: hidden; }
+
+header,
+.hero,
+.features,
+.how-it-works,
+.testimonial,
+#get-started,
+footer {
+  padding-inline: clamp(1.25rem, 5vw, 6.5rem);
+}
+
+.hero {
+  gap: clamp(2.5rem, 5vw, 4.5rem);
+  padding-block: clamp(3.25rem, 7vw, 6.5rem);
+}
+
+.hero_left h1 {
+  font-size: clamp(2.55rem, 5.2vw, 4.6rem);
+  max-width: 12ch;
+}
+
+.activity-card {
+  width: 100%;
+}
+
+.activity-image {
+  width: 100%;
+  height: auto;
+}
+
+.stats {
+  margin-inline: clamp(1.25rem, 5vw, 6.5rem);
+  margin-bottom: clamp(3rem, 6vw, 4rem);
+}
+
+.features,
+.how-it-works,
+.testimonial,
+#get-started {
+  padding-block: clamp(3.5rem, 7vw, 7rem);
+}
+
+.features-grid,
+.steps-grid {
+  gap: clamp(1rem, 2vw, 1.5rem);
+}
+
+.feature-card,
+.step-card {
+  height: auto;
+  min-height: 0;
+}
+
+@media (max-width: 820px) {
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.75rem 1rem;
+    padding-block: 0.875rem;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  header nav,
+  header .header-actions {
+    display: flex;
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+
+  header nav {
+    order: 3;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding-top: 0.25rem;
+  }
+
+  header nav a {
+    padding: 0.625rem 0.25rem;
+  }
+
+  header .header-actions {
+    order: 4;
+    gap: 0.75rem;
+  }
+
+  header .header-actions > * {
+    flex: 1 1 0;
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+
+  .hero .hero_left,
+  .hero .hero_right {
+    width: 100%;
+  }
+
+  .hero_left h1,
+  .hero-subtitle {
+    max-width: 100%;
+  }
+
+  .hero_right {
+    max-width: 40rem;
+    margin-inline: auto;
+  }
+
+  .features-grid,
+  .steps-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .footer-main {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-ctas {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .hero-ctas .btn,
+  .cta-button {
+    width: 100%;
+  }
+
+  .stats {
+    gap: 1.25rem;
+  }
+
+  .stats-copy-text {
+    max-width: 19rem;
+  }
+
+  .features-grid,
+  .steps-grid,
+  .footer-main {
+    grid-template-columns: 1fr !important;
+  }
+
+  .feature-card {
+    padding: 1.125rem;
+  }
+
+  .step-card {
+    padding: 1.25rem;
+  }
+
+  .testimonial .testimonial-quote {
+    font-size: clamp(2rem, 9.2vw, 2.65rem);
+  }
+
+  .testimonial .testimonial-attribution {
+    margin-top: 1.5rem;
+  }
+
+  .cta-heatmap {
+    width: 100%;
+    grid-template-columns: repeat(29, minmax(0, 1fr));
+    gap: 0.2rem;
+  }
+
+  .cta-heatmap span {
+    border-radius: 0.2rem;
+  }
+
+  .footer-bottom {
+    margin-top: 2.5rem;
+  }
+}
