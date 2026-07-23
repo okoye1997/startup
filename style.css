@@ -1994,14 +1994,13 @@ a,
   padding-bottom: 50px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 820px) {
   #get-started {
     padding-top: 10px;
     padding-bottom: 20px;
   }
 }
 
-@media (max-width: 570px) {
   #get-started {
     padding-top: 50px;
     padding-bottom: 100px;
