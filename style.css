@@ -1998,12 +1998,12 @@ a,
   #get-started {
     padding-top: 60px;
     padding-bottom: 70px;
-  }
+  
 }
 
 @media (max-width: 570px) {
   #get-started {
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 150px;
   }
 }
