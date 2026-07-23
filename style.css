@@ -1987,3 +1987,23 @@ a,
     text-align: left;
   }
 }
+
+/* CTA section: 20px shorter at each responsive size. */
+#get-started {
+  padding-top: 102px;
+  padding-bottom: 130px;
+}
+
+@media (max-width: 820px) {
+  #get-started {
+    padding-top: 78px;
+    padding-bottom: 94px;
+  }
+}
+
+@media (max-width: 600px) {
+  #get-started {
+    padding-top: 54px;
+    padding-bottom: 70px;
+  }
+}
