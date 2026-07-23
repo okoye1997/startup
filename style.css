@@ -1938,3 +1938,52 @@ button[disabled] {
     width: 100%;
   }
 }
+
+/* Community stats: keep every word inside the card at every screen size. */
+.stats {
+  height: auto;
+  min-height: 8rem;
+  padding: 1.25rem;
+}
+
+.stats-copy {
+  max-width: 100%;
+}
+
+.stats-copy-text {
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  text-align: center;
+}
+
+.stats-metric,
+.stats-metric-label {
+  white-space: normal;
+  text-align: center;
+}
+
+.stats-metric-value {
+  font-size: clamp(1.45rem, 3vw, 1.85rem);
+  line-height: 1.1;
+}
+
+button,
+a,
+[role="button"],
+.btn,
+.menu-icon {
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .stats-copy {
+    width: 100%;
+  }
+
+  .stats-copy-text,
+  .stats-metric,
+  .stats-metric-label {
+    text-align: left;
+  }
+}
