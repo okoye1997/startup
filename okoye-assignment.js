@@ -1,5 +1,5 @@
 ============================================
-//(1) variables of me//
+(1)// variables of me//
 ==========================================
 
 const fullname = "Okoye innocent";
