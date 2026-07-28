@@ -1,5 +1,7 @@
-//variable about me//
-==================================================
+============================================
+(1) variables of me//
+==========================================
+
 const fullname = "Okoye innocent";
 let age = 27;
 const isenrolled = true;
@@ -10,7 +12,7 @@ console.log(age);
 console.log(isenrolled);
 =======================================================
 
-//changing a variable value//
+(2)changing a variable value//
 ======================================================
 let walletbalance = 5000;
 console.log(walletbalance);//before change
@@ -20,7 +22,7 @@ let newbalance = walletbalance = 7500;
 console.log(newbalance); //after change
 =======================================
 
-whole number and decimal number//
+(3)whole number and decimal number//
 =========================================================
 const itemsinchart =3
 const itemprice = 1999.99
@@ -32,7 +34,7 @@ console.log(itemprice);
 // itemprice is a decimal number (float)//
 ========================================================
 
-total cost
+(4)total cost
 =========================================================
 const price = 2500;
 const quantity = 4;
@@ -41,7 +43,7 @@ const totalcost = price * quantity
 console.log(totalcost);
 =====================================================
 
-arithmetic operators
+(5)arithmetic operators
 ==========================================================
 const a = 17
 const b = 5
@@ -59,7 +61,7 @@ console.log(division);
 console.log(modulus);
 ====================================================
 
-jersey purchase
+(6) jersey purchase
 =========================================================
 const jerseyprice = 12000;
 const quantityofjersey = 3;
@@ -69,7 +71,7 @@ const totaljerseycost = (jerseyprice * quantityofjersey) + deliveryfee;
 console.log(totaljerseycost);
 ==========================================================
 
-comparing values
+(7) comparing values
 =========================================================
 const studentscore = 68;
 const passmark = 50;
@@ -78,7 +80,7 @@ console.log(studentscore > passmark); true
 console.log(studentscore >= 70); false
 ==========================================================
 
-compare two prices
+(8) compare two prices
 =========================================================
 const priceA =8000
 const priceB = 12000
@@ -89,7 +91,7 @@ console.log(priceA <= priceB); true
 console.log(priceA >= priceB); false
 =========================================================
 
-number to string conversion// == vs ===
+(9) number to string conversion// == vs ===
 =========================================================
 
 const num = 7;
