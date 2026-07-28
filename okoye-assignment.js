@@ -117,7 +117,7 @@ console.log(correctPin === enteredPin); // false
 
 // The user entered the correct pin value,
 // but the data type is different (number vs string),
-// so the comparison returns false and access should be denied access.
+// so the comparison returns false and user should be denied access.
 
 
 /*
