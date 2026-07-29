@@ -149,13 +149,13 @@ The main data types include:
 *
 1. const - Represents a constant value that cannot be reassigned. Example: const name = "Okoye";
 2. let - Represents a variable that can be reassigned. Example: let age = 25;
-
 *
 3. string - "hello" or 'hello' or `hello`
 4. number - 42 or 3.14
 5. boolean - true or false
-array - [1, 10, 20]
-6. object - Represents a collection of key-value pairs, e.g. { name: "Okoye" }
+6. array - [1, 10, 20]
+7. object - Represents a collection of key-value pairs, e.g. { name: "Okoye" }
+
 
 *
 8. integer - whole numbers without decimal points. Example: 5, -10, 0
