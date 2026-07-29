@@ -10,11 +10,12 @@ console.log(isEnrolled);
 // This code creates three variables about me and prints them to the console.
 
 
+
 // (2) Changing a variable value
 let walletBalance = 5000;
 console.log(walletBalance); // before change
 
-walletBalance = (walletBalance = 7500);
+walletBalance = 7500;
 console.log(walletBalance); // after change
 
 // This code shows that a variable made with let can be changed later.
@@ -32,6 +33,7 @@ console.log(itemPrice);
 // itemPrice is a decimal number (float)
 
 
+
 // (4) Total cost
 const price = 2500;
 const quantity = 4;
@@ -47,17 +49,12 @@ console.log(totalCost);
 const a = 17;
 const b = 5;
 
-const addition = a + b;
-const subtraction = a - b;
-const multiplication = a * b;
-const division = a / b;
-const modulus = a % b;
-
-console.log(addition);
-console.log(subtraction);
-console.log(multiplication);
-console.log(division);
-console.log(modulus);
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
+console.log(a ** b);
 
 // This code performs addition, subtraction, multiplication, division, remainder, and exponentiation.
 
@@ -72,6 +69,7 @@ const totalpayment = (jerseyPrice * quantityOfJersey) + deliveryFee;
 console.log(totalpayment);
 
 // This code calculates the total amount paid, including the delivery fee.
+
 
 
 // (7) Comparing values
@@ -128,6 +126,7 @@ console.log(!isWeekend);
 
 // The ! operator reverses a boolean value:
 // true becomes false and false becomes true
+
 
 
 // (12) Pin check
