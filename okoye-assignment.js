@@ -7,6 +7,8 @@ console.log(fullname);
 console.log(age);
 console.log(isEnrolled);
 
+// This code creates three variables about me and prints them to the console.
+
 
 // (2) Changing a variable value
 let walletBalance = 5000;
@@ -14,6 +16,9 @@ console.log(walletBalance); // before change
 
 let newBalance = (walletBalance = 7500);
 console.log(newBalance); // after change
+
+// This code shows that a variable made with let can be changed later.
+
 
 
 // (3) Whole numbers and decimal numbers
@@ -34,6 +39,9 @@ const quantity = 4;
 const totalCost = price * quantity;
 console.log(totalCost);
 
+// This code multiplies the price by the quantity to get the total cost.
+
+
 
 // (5) Arithmetic operators
 const a = 17;
@@ -51,59 +59,72 @@ console.log(multiplication);
 console.log(division);
 console.log(modulus);
 
+// This code performs addition, subtraction, multiplication, division, remainder, and exponentiation.
+
+
 
 // (6) Jersey purchase
 const jerseyPrice = 12000;
 const quantityOfJersey = 3;
 const deliveryFee = 2000;
-const totalJerseyCost = (jerseyPrice * quantityOfJersey) + deliveryFee;
+const totalpayment = (jerseyPrice * quantityOfJersey) + deliveryFee;
 
-console.log(totalJerseyCost);
+console.log(totalpayment);
+
+// This code calculates the total amount paid, including the delivery fee.
 
 
 // (7) Comparing values
 const studentScore = 68;
 const passMark = 50;
 
-console.log(studentScore > passMark); // true
-console.log(studentScore >= 70); // false
+console.log(studentScore > passMark);
+console.log(studentScore >= 70); 
+
+// This code compares the student's score with the pass mark and another target score.
+
 
 
 // (8) Compare two prices
 const priceA = 8000;
 const priceB = 12000;
 
-console.log(priceA < priceB); // true
-console.log(priceA > priceB); // false
-console.log(priceA <= priceB); // true
-console.log(priceA >= priceB); // false
+console.log(priceA < priceB); 
+console.log(priceA > priceB); 
+console.log(priceA <= priceB);
+console.log(priceA >= priceB);
+
+// This code compares two prices using different comparison operators.
+
 
 
 // (9) Number to string conversion and equality
 const num = 7;
 const str = "7";
 
-console.log(num == str); // true
-console.log(num === str); // false
+console.log(num == str); 
+console.log(num === str);
 
-// == checks for equality of value only, so this is true
-// === checks for equality of both value and data type, so this is false
+// == compares only the value, so it is true.
+// === compares both value and data type, so it is false.
+
 
 
 // (10) Using num and str in arithmetic operations with != vs !==
-console.log(num != str); // false
-console.log(num !== str); // true
+console.log(num != str); 
+console.log(num !== str);
 
-// != checks if the values are different
-// !== checks if the values and data types are different
+// != checks if the values are different after type conversion.
+// !== checks if the values or data types are different.
+
 
 
 // (11) The ! (Not) operator
 const isRaining = true;
 const isWeekend = false;
 
-console.log(!isRaining); // false
-console.log(!isWeekend); // true
+console.log(!isRaining); 
+console.log(!isWeekend); 
 
 // The ! operator reverses a boolean value:
 // true becomes false and false becomes true
@@ -113,11 +134,11 @@ console.log(!isWeekend); // true
 const correctPin = 1234;
 const enteredPin = "1234";
 
-console.log(correctPin === enteredPin); // false
+console.log(correctPin === enteredPin); 
 
-// The user entered the correct pin value,
-// but the data type is different (number vs string),
-// so the comparison returns false and user should be denied access.
+// The user should not be allowed in because the values have different data types.
+// === requires both the value and the data type to match.
+
 
 
 /*
