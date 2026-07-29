@@ -14,8 +14,8 @@ console.log(isEnrolled);
 let walletBalance = 5000;
 console.log(walletBalance); // before change
 
-let newBalance = (walletBalance = 7500);
-console.log(newBalance); // after change
+walletBalance = (walletBalance = 7500);
+console.log(walletBalance); // after change
 
 // This code shows that a variable made with let can be changed later.
 
@@ -150,6 +150,8 @@ The main data types include:
 1. const - Represents a constant value that cannot be reassigned. Example: const name = "Okoye";
 2. let - Represents a variable that can be reassigned. Example: let age = 25;
 *
+
+
 3. string - "hello" or 'hello' or `hello`
 4. number - 42 or 3.14
 5. boolean - true or false
