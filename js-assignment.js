@@ -168,3 +168,26 @@ The main data types include:
 14. !== - checks if values and data types are different. Example: 5 !== "5" returns true
 15. ! - reverses a boolean value. Example: !true returns false, !false returns true
 */
+
+
+if (condition) {
+    
+} else {
+    
+}
+
+switch (status) {
+    case "paid":
+        console.log("show your receipt");
+        break;
+    case "refund":
+        console.log("please visit your branch, There has been an issue");
+        break;
+    default:
+        console.log("check status, because we are not sure");
+}
+
+function n(params) {
+    
+}
+
