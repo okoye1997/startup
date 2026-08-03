@@ -186,8 +186,9 @@ switch (status) {
     default:
         console.log("check status, because we are not sure");
 }
-
-function n(params) {
-    
+function add(a, b) {
+    return a + b;
 }
 
+const result = add(5, 10);
+console.log(result); // Output: 15  
