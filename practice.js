@@ -43,3 +43,67 @@ const customer3 = customerpurchase("null", "000", "please check your purchase, b
 console.log(customer1);
 console.log(customer2);
 console.log(customer3);
+//
+let day = 8;
+switch (day) {
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    case 7:
+        console.log("Sunday");
+        break;
+    default:
+        console.log("Invalid day");
+     }     ;
+//
+
+let course = "boilogy";
+switch(course) {
+    case "accounting":
+        console.log("accounting");
+        break;
+    case "economics":
+        console.log("economics");
+        break;
+    case "business studies":
+        console.log("business studies");
+        break;
+    case "commerce":
+        console.log("commerce");
+    default:
+        console.log("more courses are available");
+}
+
+function greet(samuel, age, course) {
+
+    return samuel + " is " + age + " years old and he is studying " + course; 
+}
+console.log(greet("samuel", 30, "physicsS and chemistry"));
+//
+function userinfo(name,age,school){
+    return name + " is " + age + " years old and she studies at " + school;
+}
+console.log(userinfo("alice", 25, "university of kenya  "));
+
+//
+
+function bigman(smith,johnson,peter){
+return smith + " is the oldest, " + johnson + " is the second oldest and " + peter + " is the youngest";    
+
+}
+console.log(bigman("smith", "johnson", "peter"));
